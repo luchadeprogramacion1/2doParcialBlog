@@ -22,7 +22,7 @@
 			<a href="paginaNuevoPost.php">NUEVO POST</a>
 		</div>
 
-			<div id=usuariologueado>
+			<div class=usuariologueado1>
 				Usuario: <?php echo $_SESSION["usuario"]; 
 				if ($_SESSION["FotoPerfil"]!=""){
 					echo "<img src='../imagenes/". $_SESSION["usuario"]. ".jpg' width='100px'/>";

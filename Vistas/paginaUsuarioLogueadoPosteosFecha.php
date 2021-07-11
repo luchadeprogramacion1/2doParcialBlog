@@ -4,7 +4,6 @@
 		<link rel="stylesheet" href="../css/hojaEstilos.css" type="text/css"/>
 		<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="hojaEstilos.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 	</head>
@@ -20,35 +19,33 @@
 			<div id=inicio>
 				<a href="paginaUsuarioLogueadoPosteosFecha.php"><img src="../imagenes/icono.jpg" width="150px" title="BLOG"/></a></br>
 			</div>
-			<br>
-			<a href="paginaNuevoPost.php">NUEVO POST</a>
-		</div>
-		<div id=fotoPerfil>		
-		</div>
-			<div id=usuariologueado>
+			<div class=usuariologueado1>
 				<label><?php echo "Usuario: " . $_SESSION["usuario"]; 
 							if ($_SESSION["FotoPerfil"]!=""){
 								echo "<img src='../imagenes/". $_SESSION["usuario"]. ".jpg' width='100px'/>";
 								}
-					
 					?></label>
        			<button type="submit" class="btn btn-default" onclick="location.href='paginaModificaUsuario.php';">Actualizar Usuario</button> 
        			<button type="submit" class="btn btn-default" onclick="location.href='cierra.php';">Cerrar Sesion</button> 
+
 			</div>
-			</div>
+			<br>
+			<a href="paginaNuevoPost.php">NUEVO POST</a>
+
+		</div>
+		<div class="cajapost">
 			<div class="cajapost">
-			<div class="cajapost">
-			<div id="posts">
-		  		<ul class="">
+				<div id="posts">
+		  			<ul class="">
 				   	<h2>Listado POSTS</h2>
 			        <?php
 				    	require_once('listadoPostGeneral.php');
 				   	?>
-				</ul>
+					</ul>
 			</div>
 		</div>
 		</div>
-			<div id ="meses">
+			<div id="meses">
 				<form id="listadoPostMesesUsuario" action="listadoPostMesesUsuario.php" method="post">
 						Mis Post por mes:
 						<ul id="listameses">

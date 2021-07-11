@@ -11,8 +11,7 @@
 	<div class="contenido">
 		<div id="banner">
 		<div id=inicio>
-			<img src="" title="BLOG">
-			<a href="paginaprincipal.php">Inicio</a></br>
+				<a href="paginaprincipal.php"><img src="../imagenes/icono.jpg" width="150px" title="BLOG"/></a></br>
 		</div>
 		<div>
 		<form id="formulario" action="formularioLogueoUsuario.php" method="post">
@@ -36,7 +35,9 @@
             </div>
       </div>
 		</form>
-		<button style="float: right" type="submit" class="btn btn-default" onclick="location.href='paginaRegistroUsuario.php';">Registrarse</button>
+		       <div class="registro">
+            		<button type="submit" class="btn btn-default" onclick="location.href='paginaRegistroUsuario.php';">Registrarse</button>
+            	</div>
 		</div>
 		
 		</div>
@@ -52,10 +53,10 @@
 				   		?>
 				</ul>
 			</div>
-			</div>
 	</div>
-		<form id="listadoPostMeses" action="listadoPostMeses.php" method="post">
 		<div id ="meses">
+		<form id="listadoPostMeses" action="listadoPostMeses.php" method="post">
+	
 		<ul id="listameses">
 				<a href="?mes=1">Enero</a></br>
 				<a href="?mes=2">Febrero</a></br>
@@ -70,8 +71,8 @@
 				<a href="?mes=11">Noviembre</a></br>
 				<a href="?mes=12">Diciembre</a></br>
 			</ul>
-		</div>
+		
 		</form>
-
+</div>
 </body>
 </html>

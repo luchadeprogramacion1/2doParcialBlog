@@ -22,10 +22,7 @@
 				<br>
 				<a href="paginaNuevoPost.php">NUEVO POST</a>
 			</div>
-			<div id=fotoPerfil>
-			
-			</div>
-			<div id=usuariologueado>
+			<div class=usuariologueado1>
 				<label><?php echo "Usuario: " . $_SESSION["usuario"]; 
 							if ($_SESSION["FotoPerfil"]!=""){
 								echo "<img src='../imagenes/". $_SESSION["usuario"]. ".jpg' width='100px'/>";
@@ -45,8 +42,9 @@
 				        	?>
 				</ul>
 			</div>
-		<form id="listadoPostMeses" action="listadoPostMeses.php" method="post">
-			<div id ="meses">
+		</div>
+		<div id="meses">
+			<form id="listadoPostMeses" action="listadoPostMeses.php" method="post">
 				Mis Post por mes:
 				<ul id="listameses">
 				
@@ -65,7 +63,7 @@
 					</br>
 					<a href="paginaUsuarioLogueado.php">[Ver Todos]</a></br>
 				</ul>
-			</div>
-		</form>
+			</form>
+		</div>
 	</body>
 </html>

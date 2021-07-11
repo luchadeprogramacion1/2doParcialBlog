@@ -22,10 +22,7 @@
 				<br>
 				<a href="paginaNuevoPost.php">NUEVO POST</a>
 			</div>
-			<div id=fotoPerfil>
-			
-			</div>
-			<div id=usuariologueado>
+						<div class=usuariologueado1>
 				<label><?php echo "Usuario: " . $_SESSION["usuario"]; 
 							if ($_SESSION["FotoPerfil"]!=""){
 								echo "<img src='../imagenes/". $_SESSION["usuario"]. ".jpg' width='100px'/>";
@@ -34,6 +31,9 @@
 					?></label>
        			<button type="submit" class="btn btn-default" onclick="location.href='paginaModificaUsuario.php';">Actualizar Usuario</button> 
        			<button type="submit" class="btn btn-default" onclick="location.href='cierra.php';">Cerrar Sesion</button> 
+			</div>
+			<div id=fotoPerfil>
+			
 			</div>
 			</div>
 			<div class="cajapost">

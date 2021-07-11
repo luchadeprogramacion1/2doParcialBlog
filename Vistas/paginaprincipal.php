@@ -56,22 +56,22 @@
 		<div id ="meses">
 			<form id="listadoPostMeses" action="listadoPostMeses.php" method="post">
 	
-		<ul id="listameses">
-		Busqueda por Meses:</br></br>
-				<a href="paginaPostMeses.php?mes=1">Enero</a></br>
-				<a href="paginaPostMeses.php?mes=2">Febrero</a></br>
-				<a href="paginaPostMeses.php?mes=3">Marzo</a></br>
-				<a href="paginaPostMeses.php?mes=4">Abril</a></br>
-				<a href="paginaPostMeses.php?mes=5">Mayo</a></br>
-				<a href="paginaPostMeses.php?mes=6">Junio</a></br>
-				<a href="paginaPostMeses.php?mes=7">Julio</a></br>
-				<a href="paginaPostMeses.php?mes=8">Agosto</a></br>
-				<a href="paginaPostMeses.php?mes=9">Septiembre</a></br>
-				<a href="paginaPostMeses.php?mes=10">Octubre</a></br>
-				<a href="paginaPostMeses.php?mes=11">Noviembre</a></br>
-				<a href="paginaPostMeses.php?mes=12">Diciembre</a></br>
-		</ul>
-		</div>
+				<ul id="listameses">
+				Busqueda por Meses:</br></br>
+						<a href="paginaPostMeses.php?mes=1">Enero</a></br>
+						<a href="paginaPostMeses.php?mes=2">Febrero</a></br>
+						<a href="paginaPostMeses.php?mes=3">Marzo</a></br>
+						<a href="paginaPostMeses.php?mes=4">Abril</a></br>
+						<a href="paginaPostMeses.php?mes=5">Mayo</a></br>
+						<a href="paginaPostMeses.php?mes=6">Junio</a></br>
+						<a href="paginaPostMeses.php?mes=7">Julio</a></br>
+						<a href="paginaPostMeses.php?mes=8">Agosto</a></br>
+						<a href="paginaPostMeses.php?mes=9">Septiembre</a></br>
+						<a href="paginaPostMeses.php?mes=10">Octubre</a></br>
+						<a href="paginaPostMeses.php?mes=11">Noviembre</a></br>
+						<a href="paginaPostMeses.php?mes=12">Diciembre</a></br>
+				</ul>
+	
 		</form>
 	</div>
 </body>
