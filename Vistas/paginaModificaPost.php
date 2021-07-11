@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Maqueta Blog Parcial Final</title>
+		<title>Blogsito 99.99%</title>
 		<link rel="stylesheet" href="../css/hojaEstilos.css" type="text/css"/>
 		<head>
 		<meta charset="utf-8">

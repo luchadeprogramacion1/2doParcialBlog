@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Blogsito 99.99%</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="../css/hojaEstilos.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Blogsito Sin Terminar</title>
+	<title>Blogsito 99.99%</title>
 	<link rel="stylesheet" href="../css/hojaEstilos.css" type="text/css"/>
 	<head>
 	<meta charset="utf-8">
@@ -10,12 +10,12 @@
 <body>
 	<div class="contenido">
 		<div id="banner">
-		<div id=inicio>
+			<div id=inicio>
 				<a href="paginaprincipal.php"><img src="../imagenes/icono.jpg" width="150px" title="BLOG"/></a></br>
-		</div>
-		<div>
-		<form id="formulario" action="formularioLogueoUsuario.php" method="post">
-		<div id=usuario>
+			</div>
+				<div>
+					<form id="formulario" action="formularioLogueoUsuario.php" method="post">
+			<div id=usuario>
 			<div class="input-group">
 				<div class="input-group-addon">
 					<div class="glyphicon glyphicon-envelope">
@@ -29,15 +29,15 @@
                 	</div>
                 </div> 
                 <input type="password" class="form-control" id="clave" name="ContrasenaUsuario" maxlength="20" minlength="3" required pattern="[A-Za-z0-9]+" placeholder="contraseña" required>
-      </div>
+      		</div>
             <div>
             	<button type="submit" class="btn btn-default">INICIO SESION</button> 
             </div>
-      </div>
+            <div>
+           		<a href="paginaRegistroUsuario.php" class="registro">REGISTRO</a>
+            </div>
+     		</div>
 		</form>
-		       <div class="registro">
-            		<button type="submit" class="btn btn-default" onclick="location.href='paginaRegistroUsuario.php';">Registrarse</button>
-            	</div>
 		</div>
 		
 		</div>
@@ -56,7 +56,7 @@
 	</div>
 		<div id ="meses">
 		<form id="listadoPostMeses" action="listadoPostMeses.php" method="post">
-	
+		Busqueda por Meses:</br></br>
 		<ul id="listameses">
 				<a href="?mes=1">Enero</a></br>
 				<a href="?mes=2">Febrero</a></br>

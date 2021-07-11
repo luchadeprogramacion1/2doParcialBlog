@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Maqueta Blog Parcial Final</title>
+		<title>Blogsito 99.99%</title>
 		<link rel="stylesheet" href="../css/hojaEstilos.css" type="text/css"/>
 		<head>
 		<meta charset="utf-8">
@@ -17,6 +17,9 @@
 		?>
 		<div class="contenido">
 			<div id="banner">
+							<div id=inicio>
+				<a href="paginaprincipal.php"><img src="../imagenes/icono.jpg" width="150px" title="BLOG"/></a></br>
+			</div>
 			<div id=inicioUsusarioLogueado>
 				<a href="paginaUsuarioLogueadoPosteosFecha.php">BLOG</a>
 				<br>
