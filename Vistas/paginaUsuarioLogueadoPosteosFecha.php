@@ -50,7 +50,6 @@
 		</div>
 			<div id ="meses">
 				<form id="listadoPostMesesUsuario" action="listadoPostMesesUsuario.php" method="post">
-					<div id ="meses">
 						Mis Post por mes:
 						<ul id="listameses">
 							<a href="paginaPostMesesUsuarioLogueado.php?mes=1">Enero</a></br>
@@ -68,9 +67,7 @@
 								</br>
 							<a href="paginaUsuarioLogueado.php">[Ver Todos]</a></br>
 						</ul>
-					</div>
 				</form>
 			</div>
-		</div>
 	</body>
 </html>
