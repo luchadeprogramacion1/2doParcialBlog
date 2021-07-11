@@ -1,6 +1,9 @@
 # 2doParcialBlog
 #Avance 2do Parcial
 
+#Profe un breve comentario del porque visualizas en este proyecto varios commits mios, es que fuimos trabamos individualmente y nos unimos para complementar lo que Maria Eugenia tenia https://github.com/maruqueta/mvcframework con lo que yo habia avanzando y unimos los trabajos, ella enviandome por wapps lo que venia avanzando ya que tuvo dificultades con la PC. Cualquier cosa quedamos atentos a tus comentarios.
+
+#PD. perdon por lo visual, no nos dio el tiempo para poder hacerlo presentable.
 
 #Integrantes.
 #Maria Eugenia Aguiar

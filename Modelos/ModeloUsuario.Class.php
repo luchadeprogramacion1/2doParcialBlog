@@ -51,7 +51,7 @@ class ModeloUsuario extends Modelo{
 			CorreoUsuario='{$this -> CorreoUsuario}',
 			FotoPerfil = '{$this -> FotoPerfil}'
 			where usuario = '{$this -> Usuario}'";
-				}
+			}
 	    $this -> conexion -> query($sql);
 			if($this -> conexion -> error){
 					throw new Exception("error en la creacion del usuario");
